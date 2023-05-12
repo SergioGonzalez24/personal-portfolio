@@ -5,6 +5,8 @@
   <title>My Website</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <!-- Custom CSS -->
   <link rel="stylesheet" href="style_1.css">
 </head>
@@ -15,19 +17,15 @@
       <div class="row justify-content-center align-items-center">
         <div class="col-md-12 text-center">
           <div class="animation-container">
-
-         
-             <div id="hello" class="display-1 font-weight-bold">Hello!</div>
-              
-            <h2 class="display-4 font-weight-bold">My name is Sergio.</h2>
-            <div class="description">
+            <div id="hello" class="display-1 font-weight-bold animate__animated animate__fadeInDown">Hello!</div>
+            <h2 class="display-4 font-weight-bold animate__animated animate__fadeInDown">My name is Sergio.</h2>
+            <div class="description animate__animated animate__fadeInDown">
               <i class="fas fa-quote-left"></i>
               <p>I'm a web developer with a passion for creating beautiful and functional websites.</p>
               <i class="fas fa-quote-right"></i>
             </div>
           </div>
         </div>
-
       </div>
     </div>
   </section>
@@ -36,16 +34,16 @@
   <section id="second-section" class="section">
     <div class="container-fluid">
       <div class="row justify-content-center align-items-center">
-        <div class="col-md-6">
+        <div class="col-md-6 animate__animated animate__fadeInLeft">
           <img src="https://via.placeholder.com/500x500" alt="Sergio's Picture">
         </div>
-        <div class="col-md-6">
+        <div class="col-md-6 animate__animated animate__fadeInRight">
           <div class="slogan-container">
             <h1 class="display-1 font-weight-bold">Imagine It, I'll Create It</h1>
             <div class="buttons">
-              <a href="#projects" class="btn btn-primary btn-lg">Projects</a>
+              <a href="./projects/projects.html" class="btn btn-primary btn-lg">Projects</a>
               <a href="#about" class="btn btn-secondary btn-lg">About</a>
-              <a href="#contact" class="btn btn-success btn-lg">Contact</a>
+              <a href="#contact" class="btn btn-tersiary btn-lg">Contact</a>
             </div>
           </div>
         </div>

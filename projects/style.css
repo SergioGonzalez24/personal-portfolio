@@ -121,155 +121,30 @@ body {
     color: #f0c14b;
   }
   
-  .btn-primary:hover {
-    background-color: #f0c14b;
-    color: #2d2d2d;
-    border-color: #f0c14b;
+  /* Style for the project cards */
+  .card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
   }
   
-  .btn-secondary {
-    margin: 5px 5px;
-    background-color: transparent;
-    border-color: #ffffff;
-    color: #ffffff;
+  .card img {
+    transition: transform 0.2s ease-in-out;
   }
   
-  .btn-secondary:hover {
-    background-color: #ffffff;
-    color: #2d2d2d;
-    border-color: #333;
+  .card:hover img {
+    transform: scale(1.1);
   }
   
-  .btn-tersiary {
-    margin: 5px 5px;
-    padding: auto;
-    background-color: transparent;
-    border-color: #00c853;
-    color: #00c853;
-  }
-  
-  .btn-tersiary:hover {
-    background-color: #00c853;
+  .card .overlay {
+    background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
-    border-color: #00c853;
-  }
-  
-
-
-/* Utility Classes */
-.text-5xl {
-font-size: 5rem;
-font-weight: 700;
-margin-bottom: 20px;
-color: #007bff;
-}
-
-.font-weight-bold {
-font-weight: 700;
-}
-
-.text-center {
-text-align: center;
-}
-
-.text-uppercase {
-text-transform: uppercase;
-}
-
-/* Media Queries */
-@media (max-width: 768px) {
-.description {
-margin-top: 10px;
-}
-
-.slogan-container {
-padding: 30px 0;
-}
-
-.slogan-container h1 {
-font-size: 3rem;
-margin-bottom: 30px;
-}
-
-.btn-lg {
-margin-right: 10px;
-padding: 10px 20px;
-font-size: 1rem;
-}
-}
-
-@media (max-width: 576px) {
-.text-5xl {
-font-size: 3.5rem;
-}
-
-.description p {
-font-size: 1rem;
-}
-
-.slogan-container h1 {
-font-size: 2rem;
-margin-bottom: 20px;
-}
-
-.btn-lg {
-margin-right: 10px;
-padding: 10px 20px;
-font-size: 1rem;
-}
-}
-
-/* Responsive Styles */
-    
-@media screen and (max-width: 767px) {
-    .text-5xl {
-    font-size: 3rem;
-    }
-    
-    .description i {
-    font-size: 1.5rem;
-    }
-    
-    .display-1 {
-    font-size: 4rem;
-    }
-    
-    .btn {
-    font-size: 1.25rem;
-    }
-    }
-    
-    @media screen and (max-width: 576px) {
-    .text-5xl {
-    font-size: 2rem;
-    }
-
-    .description i {
-    font-size: 1.25rem;
-    }
-
-    .display-1 {
-    font-size: 3rem;
-    }
-
-    .btn {
-    font-size: 1rem;
-    }
-    }
-
-/* Animation Styles Transition */
-.section {
+    height: 100%;
+    left: 0;
     opacity: 0;
-    transition: opacity 0.5s ease-in-out;
-  }
-  
-  .section.active {
-    opacity: 1;
-  }
-
-  .section.animate {
-    opacity: 1;
-    transform: translateY(0);
-    transition-delay: 0.2s;
-  }
+    position: absolute;
+    top: 0;
+    transition: opacity 0
   
