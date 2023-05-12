@@ -1,5 +1,3 @@
-// Remove loader after page has loaded
-window.addEventListener('load', function () {
-    const loader = document.getElementById('loader');
-    loader.classList.add('fadeOut');
-  });
+// Custom JS for project.html
+// Add animation to all the page
+$("body").addClass("animated fadeIn");
