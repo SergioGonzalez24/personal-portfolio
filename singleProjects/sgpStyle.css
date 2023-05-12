@@ -6,6 +6,11 @@
     left: 0;
     min-width: 100%;
     min-height: 100%;
+
+    /* put the video behind all the other elements */
+    z-index: -100;
+    
+    
 }
 
 /* Center the card vertically and horizontally */
