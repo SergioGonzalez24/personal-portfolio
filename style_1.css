@@ -273,3 +273,25 @@ font-size: 1rem;
     transition-delay: 0.2s;
   }
   
+    /* Style for the navbar */
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      font-size: 20px;
+    }
+    
+    .navbar a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+    
+    .navbar a:hover {
+      color: #ff0;
+    }
