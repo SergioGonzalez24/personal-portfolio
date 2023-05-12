@@ -1,7 +1,7 @@
 /* Custom CSS for project.html */
 /* Set the video container to full screen */
 #background-video {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     min-width: 100%;
